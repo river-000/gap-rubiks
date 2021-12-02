@@ -1,540 +1,1759 @@
-<U,Aa,Ua>
-<U,Aa,Ja>
-<U,Aa,Jb>
-<U,Aa,Ra>
-<U,Aa,Rb>
-<U,Aa,V>
-<U,Aa,Y>
-<U,Aa,Ga>
-<U,Aa,Gc>
-<U,Ua,Ja>
-<U,Ua,Jb>
-<U,Ua,Ra>
-<U,Ua,Rb>
-<U,Ua,F>
-<U,Ua,T>
-<U,Ua,Ga>
-<U,Ua,Gc>
-<U,Ja,Jb>
-<U,Ja,Ra>
-<U,Ja,F>
-<U,Ja,T>
-<U,Ja,V>
-<U,Ja,Y>
-<U,Ja,Gc>
-<U,Jb,Rb>
-<U,Jb,F>
-<U,Jb,T>
-<U,Jb,V>
-<U,Jb,Y>
-<U,Jb,Ga>
-<U,Ra,Rb>
-<U,Ra,F>
-<U,Ra,T>
-<U,Ra,V>
-<U,Ra,Y>
-<U,Ra,Ga>
-<U,Rb,F>
-<U,Rb,T>
-<U,Rb,V>
-<U,Rb,Y>
-<U,Rb,Gc>
-<U,F,V>
-<U,F,Y>
-<U,F,Ga>
-<U,F,Gc>
-<U,T,V>
-<U,T,Y>
-<U,T,Ga>
-<U,T,Gc>
-<U,V,Ga>
-<U,V,Gc>
-<U,Y,Ga>
-<U,Y,Gc>
-<U,Ga,Gc>
-<U,Aa,Ua,Ja>
-<U,Aa,Ua,Jb>
-<U,Aa,Ua,Na>
-<U,Aa,Ua,Nb>
-<U,Aa,Ua,Ra>
-<U,Aa,Ua,Rb>
-<U,Aa,Ua,E>
-<U,Aa,Ua,H>
-<U,Aa,Ua,Z>
-<U,Aa,Ua,F>
-<U,Aa,Ua,T>
-<U,Aa,Ua,V>
-<U,Aa,Ua,Y>
-<U,Aa,Ua,Ga>
-<U,Aa,Ua,Gc>
-<U,Aa,Ja,Jb>
-<U,Aa,Ja,Na>
-<U,Aa,Ja,Nb>
-<U,Aa,Ja,Ra>
-<U,Aa,Ja,Rb>
-<U,Aa,Ja,E>
-<U,Aa,Ja,H>
-<U,Aa,Ja,Z>
-<U,Aa,Ja,F>
-<U,Aa,Ja,T>
-<U,Aa,Ja,V>
-<U,Aa,Ja,Y>
-<U,Aa,Ja,Ga>
-<U,Aa,Ja,Gc>
-<U,Aa,Jb,Na>
-<U,Aa,Jb,Nb>
-<U,Aa,Jb,Ra>
-<U,Aa,Jb,Rb>
-<U,Aa,Jb,E>
-<U,Aa,Jb,H>
-<U,Aa,Jb,Z>
-<U,Aa,Jb,F>
-<U,Aa,Jb,T>
-<U,Aa,Jb,V>
-<U,Aa,Jb,Y>
-<U,Aa,Jb,Ga>
-<U,Aa,Jb,Gc>
-<U,Aa,Na,Ra>
-<U,Aa,Na,Rb>
-<U,Aa,Na,V>
-<U,Aa,Na,Y>
-<U,Aa,Na,Ga>
-<U,Aa,Na,Gc>
-<U,Aa,Nb,Ra>
-<U,Aa,Nb,Rb>
-<U,Aa,Nb,V>
-<U,Aa,Nb,Y>
-<U,Aa,Nb,Ga>
-<U,Aa,Nb,Gc>
-<U,Aa,Ra,Rb>
-<U,Aa,Ra,E>
-<U,Aa,Ra,H>
-<U,Aa,Ra,Z>
-<U,Aa,Ra,F>
-<U,Aa,Ra,T>
-<U,Aa,Ra,V>
-<U,Aa,Ra,Y>
-<U,Aa,Ra,Ga>
-<U,Aa,Ra,Gc>
-<U,Aa,Rb,E>
-<U,Aa,Rb,H>
-<U,Aa,Rb,Z>
-<U,Aa,Rb,F>
-<U,Aa,Rb,T>
-<U,Aa,Rb,V>
-<U,Aa,Rb,Y>
-<U,Aa,Rb,Ga>
-<U,Aa,Rb,Gc>
-<U,Aa,E,V>
-<U,Aa,E,Y>
-<U,Aa,E,Ga>
-<U,Aa,E,Gc>
-<U,Aa,H,V>
-<U,Aa,H,Y>
-<U,Aa,H,Ga>
-<U,Aa,H,Gc>
-<U,Aa,Z,V>
-<U,Aa,Z,Y>
-<U,Aa,Z,Ga>
-<U,Aa,Z,Gc>
-<U,Aa,F,V>
-<U,Aa,F,Y>
-<U,Aa,F,Ga>
-<U,Aa,F,Gc>
-<U,Aa,T,V>
-<U,Aa,T,Y>
-<U,Aa,T,Ga>
-<U,Aa,T,Gc>
-<U,Aa,V,Y>
-<U,Aa,V,Ga>
-<U,Aa,V,Gc>
-<U,Aa,Y,Ga>
-<U,Aa,Y,Gc>
-<U,Aa,Ga,Gc>
-<U,Ua,Ja,Jb>
-<U,Ua,Ja,Na>
-<U,Ua,Ja,Nb>
-<U,Ua,Ja,Ra>
-<U,Ua,Ja,Rb>
-<U,Ua,Ja,E>
-<U,Ua,Ja,H>
-<U,Ua,Ja,Z>
-<U,Ua,Ja,F>
-<U,Ua,Ja,T>
-<U,Ua,Ja,V>
-<U,Ua,Ja,Y>
-<U,Ua,Ja,Ga>
-<U,Ua,Ja,Gc>
-<U,Ua,Jb,Na>
-<U,Ua,Jb,Nb>
-<U,Ua,Jb,Ra>
-<U,Ua,Jb,Rb>
-<U,Ua,Jb,E>
-<U,Ua,Jb,H>
-<U,Ua,Jb,Z>
-<U,Ua,Jb,F>
-<U,Ua,Jb,T>
-<U,Ua,Jb,V>
-<U,Ua,Jb,Y>
-<U,Ua,Jb,Ga>
-<U,Ua,Jb,Gc>
-<U,Ua,Na,Ra>
-<U,Ua,Na,Rb>
-<U,Ua,Na,F>
-<U,Ua,Na,T>
-<U,Ua,Na,Ga>
-<U,Ua,Na,Gc>
-<U,Ua,Nb,Ra>
-<U,Ua,Nb,Rb>
-<U,Ua,Nb,F>
-<U,Ua,Nb,T>
-<U,Ua,Nb,Ga>
-<U,Ua,Nb,Gc>
-<U,Ua,Ra,Rb>
-<U,Ua,Ra,E>
-<U,Ua,Ra,H>
-<U,Ua,Ra,Z>
-<U,Ua,Ra,F>
-<U,Ua,Ra,T>
-<U,Ua,Ra,V>
-<U,Ua,Ra,Y>
-<U,Ua,Ra,Ga>
-<U,Ua,Ra,Gc>
-<U,Ua,Rb,E>
-<U,Ua,Rb,H>
-<U,Ua,Rb,Z>
-<U,Ua,Rb,F>
-<U,Ua,Rb,T>
-<U,Ua,Rb,V>
-<U,Ua,Rb,Y>
-<U,Ua,Rb,Ga>
-<U,Ua,Rb,Gc>
-<U,Ua,E,F>
-<U,Ua,E,T>
-<U,Ua,E,Ga>
-<U,Ua,E,Gc>
-<U,Ua,H,F>
-<U,Ua,H,T>
-<U,Ua,H,Ga>
-<U,Ua,H,Gc>
-<U,Ua,Z,F>
-<U,Ua,Z,T>
-<U,Ua,Z,Ga>
-<U,Ua,Z,Gc>
-<U,Ua,F,T>
-<U,Ua,F,V>
-<U,Ua,F,Y>
-<U,Ua,F,Ga>
-<U,Ua,F,Gc>
-<U,Ua,T,V>
-<U,Ua,T,Y>
-<U,Ua,T,Ga>
-<U,Ua,T,Gc>
-<U,Ua,V,Ga>
-<U,Ua,V,Gc>
-<U,Ua,Y,Ga>
-<U,Ua,Y,Gc>
-<U,Ua,Ga,Gc>
-<U,Ja,Jb,Na>
-<U,Ja,Jb,Nb>
-<U,Ja,Jb,Ra>
-<U,Ja,Jb,Rb>
-<U,Ja,Jb,E>
-<U,Ja,Jb,H>
-<U,Ja,Jb,Z>
-<U,Ja,Jb,F>
-<U,Ja,Jb,T>
-<U,Ja,Jb,V>
-<U,Ja,Jb,Y>
-<U,Ja,Jb,Ga>
-<U,Ja,Jb,Gc>
-<U,Ja,Na,Ra>
-<U,Ja,Na,F>
-<U,Ja,Na,T>
-<U,Ja,Na,V>
-<U,Ja,Na,Y>
-<U,Ja,Na,Gc>
-<U,Ja,Nb,Ra>
-<U,Ja,Nb,F>
-<U,Ja,Nb,T>
-<U,Ja,Nb,V>
-<U,Ja,Nb,Y>
-<U,Ja,Nb,Gc>
-<U,Ja,Ra,Rb>
-<U,Ja,Ra,E>
-<U,Ja,Ra,H>
-<U,Ja,Ra,Z>
-<U,Ja,Ra,F>
-<U,Ja,Ra,T>
-<U,Ja,Ra,V>
-<U,Ja,Ra,Y>
-<U,Ja,Ra,Ga>
-<U,Ja,Ra,Gc>
-<U,Ja,Rb,F>
-<U,Ja,Rb,T>
-<U,Ja,Rb,V>
-<U,Ja,Rb,Y>
-<U,Ja,Rb,Gc>
-<U,Ja,E,F>
-<U,Ja,E,T>
-<U,Ja,E,V>
-<U,Ja,E,Y>
-<U,Ja,E,Gc>
-<U,Ja,H,F>
-<U,Ja,H,T>
-<U,Ja,H,V>
-<U,Ja,H,Y>
-<U,Ja,H,Gc>
-<U,Ja,Z,F>
-<U,Ja,Z,T>
-<U,Ja,Z,V>
-<U,Ja,Z,Y>
-<U,Ja,Z,Gc>
-<U,Ja,F,T>
-<U,Ja,F,V>
-<U,Ja,F,Y>
-<U,Ja,F,Ga>
-<U,Ja,F,Gc>
-<U,Ja,T,V>
-<U,Ja,T,Y>
-<U,Ja,T,Ga>
-<U,Ja,T,Gc>
-<U,Ja,V,Y>
-<U,Ja,V,Ga>
-<U,Ja,V,Gc>
-<U,Ja,Y,Ga>
-<U,Ja,Y,Gc>
-<U,Ja,Ga,Gc>
-<U,Jb,Na,Rb>
-<U,Jb,Na,F>
-<U,Jb,Na,T>
-<U,Jb,Na,V>
-<U,Jb,Na,Y>
-<U,Jb,Na,Ga>
-<U,Jb,Nb,Rb>
-<U,Jb,Nb,F>
-<U,Jb,Nb,T>
-<U,Jb,Nb,V>
-<U,Jb,Nb,Y>
-<U,Jb,Nb,Ga>
-<U,Jb,Ra,Rb>
-<U,Jb,Ra,F>
-<U,Jb,Ra,T>
-<U,Jb,Ra,V>
-<U,Jb,Ra,Y>
-<U,Jb,Ra,Ga>
-<U,Jb,Rb,E>
-<U,Jb,Rb,H>
-<U,Jb,Rb,Z>
-<U,Jb,Rb,F>
-<U,Jb,Rb,T>
-<U,Jb,Rb,V>
-<U,Jb,Rb,Y>
-<U,Jb,Rb,Ga>
-<U,Jb,Rb,Gc>
-<U,Jb,E,F>
-<U,Jb,E,T>
-<U,Jb,E,V>
-<U,Jb,E,Y>
-<U,Jb,E,Ga>
-<U,Jb,H,F>
-<U,Jb,H,T>
-<U,Jb,H,V>
-<U,Jb,H,Y>
-<U,Jb,H,Ga>
-<U,Jb,Z,F>
-<U,Jb,Z,T>
-<U,Jb,Z,V>
-<U,Jb,Z,Y>
-<U,Jb,Z,Ga>
-<U,Jb,F,T>
-<U,Jb,F,V>
-<U,Jb,F,Y>
-<U,Jb,F,Ga>
-<U,Jb,F,Gc>
-<U,Jb,T,V>
-<U,Jb,T,Y>
-<U,Jb,T,Ga>
-<U,Jb,T,Gc>
-<U,Jb,V,Y>
-<U,Jb,V,Ga>
-<U,Jb,V,Gc>
-<U,Jb,Y,Ga>
-<U,Jb,Y,Gc>
-<U,Jb,Ga,Gc>
-<U,Na,Ra,Rb>
-<U,Na,Ra,F>
-<U,Na,Ra,T>
-<U,Na,Ra,V>
-<U,Na,Ra,Y>
-<U,Na,Ra,Ga>
-<U,Na,Rb,F>
-<U,Na,Rb,T>
-<U,Na,Rb,V>
-<U,Na,Rb,Y>
-<U,Na,Rb,Gc>
-<U,Na,F,V>
-<U,Na,F,Y>
-<U,Na,F,Ga>
-<U,Na,F,Gc>
-<U,Na,T,V>
-<U,Na,T,Y>
-<U,Na,T,Ga>
-<U,Na,T,Gc>
-<U,Na,V,Ga>
-<U,Na,V,Gc>
-<U,Na,Y,Ga>
-<U,Na,Y,Gc>
-<U,Na,Ga,Gc>
-<U,Nb,Ra,Rb>
-<U,Nb,Ra,F>
-<U,Nb,Ra,T>
-<U,Nb,Ra,V>
-<U,Nb,Ra,Y>
-<U,Nb,Ra,Ga>
-<U,Nb,Rb,F>
-<U,Nb,Rb,T>
-<U,Nb,Rb,V>
-<U,Nb,Rb,Y>
-<U,Nb,Rb,Gc>
-<U,Nb,F,V>
-<U,Nb,F,Y>
-<U,Nb,F,Ga>
-<U,Nb,F,Gc>
-<U,Nb,T,V>
-<U,Nb,T,Y>
-<U,Nb,T,Ga>
-<U,Nb,T,Gc>
-<U,Nb,V,Ga>
-<U,Nb,V,Gc>
-<U,Nb,Y,Ga>
-<U,Nb,Y,Gc>
-<U,Nb,Ga,Gc>
-<U,Ra,Rb,E>
-<U,Ra,Rb,H>
-<U,Ra,Rb,Z>
-<U,Ra,Rb,F>
-<U,Ra,Rb,T>
-<U,Ra,Rb,V>
-<U,Ra,Rb,Y>
-<U,Ra,Rb,Ga>
-<U,Ra,Rb,Gc>
-<U,Ra,E,F>
-<U,Ra,E,T>
-<U,Ra,E,V>
-<U,Ra,E,Y>
-<U,Ra,E,Ga>
-<U,Ra,H,F>
-<U,Ra,H,T>
-<U,Ra,H,V>
-<U,Ra,H,Y>
-<U,Ra,H,Ga>
-<U,Ra,Z,F>
-<U,Ra,Z,T>
-<U,Ra,Z,V>
-<U,Ra,Z,Y>
-<U,Ra,Z,Ga>
-<U,Ra,F,T>
-<U,Ra,F,V>
-<U,Ra,F,Y>
-<U,Ra,F,Ga>
-<U,Ra,F,Gc>
-<U,Ra,T,V>
-<U,Ra,T,Y>
-<U,Ra,T,Ga>
-<U,Ra,T,Gc>
-<U,Ra,V,Y>
-<U,Ra,V,Ga>
-<U,Ra,V,Gc>
-<U,Ra,Y,Ga>
-<U,Ra,Y,Gc>
-<U,Ra,Ga,Gc>
-<U,Rb,E,F>
-<U,Rb,E,T>
-<U,Rb,E,V>
-<U,Rb,E,Y>
-<U,Rb,E,Gc>
-<U,Rb,H,F>
-<U,Rb,H,T>
-<U,Rb,H,V>
-<U,Rb,H,Y>
-<U,Rb,H,Gc>
-<U,Rb,Z,F>
-<U,Rb,Z,T>
-<U,Rb,Z,V>
-<U,Rb,Z,Y>
-<U,Rb,Z,Gc>
-<U,Rb,F,T>
-<U,Rb,F,V>
-<U,Rb,F,Y>
-<U,Rb,F,Ga>
-<U,Rb,F,Gc>
-<U,Rb,T,V>
-<U,Rb,T,Y>
-<U,Rb,T,Ga>
-<U,Rb,T,Gc>
-<U,Rb,V,Y>
-<U,Rb,V,Ga>
-<U,Rb,V,Gc>
-<U,Rb,Y,Ga>
-<U,Rb,Y,Gc>
-<U,Rb,Ga,Gc>
-<U,E,F,V>
-<U,E,F,Y>
-<U,E,F,Ga>
-<U,E,F,Gc>
-<U,E,T,V>
-<U,E,T,Y>
-<U,E,T,Ga>
-<U,E,T,Gc>
-<U,E,V,Ga>
-<U,E,V,Gc>
-<U,E,Y,Ga>
-<U,E,Y,Gc>
-<U,E,Ga,Gc>
-<U,H,F,V>
-<U,H,F,Y>
-<U,H,F,Ga>
-<U,H,F,Gc>
-<U,H,T,V>
-<U,H,T,Y>
-<U,H,T,Ga>
-<U,H,T,Gc>
-<U,H,V,Ga>
-<U,H,V,Gc>
-<U,H,Y,Ga>
-<U,H,Y,Gc>
-<U,H,Ga,Gc>
-<U,Z,F,V>
-<U,Z,F,Y>
-<U,Z,F,Ga>
-<U,Z,F,Gc>
-<U,Z,T,V>
-<U,Z,T,Y>
-<U,Z,T,Ga>
-<U,Z,T,Gc>
-<U,Z,V,Ga>
-<U,Z,V,Gc>
-<U,Z,Y,Ga>
-<U,Z,Y,Gc>
-<U,Z,Ga,Gc>
-<U,F,T,V>
-<U,F,T,Y>
-<U,F,T,Ga>
-<U,F,T,Gc>
-<U,F,V,Y>
-<U,F,V,Ga>
-<U,F,V,Gc>
-<U,F,Y,Ga>
-<U,F,Y,Gc>
-<U,F,Ga,Gc>
-<U,T,V,Y>
-<U,T,V,Ga>
-<U,T,V,Gc>
-<U,T,Y,Ga>
-<U,T,Y,Gc>
-<U,T,Ga,Gc>
-<U,V,Y,Ga>
-<U,V,Y,Gc>
-<U,V,Ga,Gc>
+
+<U,Aa>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Aa E H
+
+<U,Ua>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Ua H Z
+
+<U,Ja>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Ja Nb
+
+<U,Jb>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Jb Na
+
+<U,Na>
+Index: 36
+Order: 8
+Group: D8
+PLLs: Na
+
+<U,Nb>
+Index: 36
+Order: 8
+Group: D8
+PLLs: Nb
+
+<U,Ra>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Na Ra
+
+<U,Rb>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Nb Rb
+
+<U,E>
+Index: 18
+Order: 16
+Group: (C4 x C2) : C2
+PLLs: E H
+
+<U,H>
+Index: 36
+Order: 8
+Group: C4 x C2
+PLLs: H
+
+<U,Z>
+Index: 18
+Order: 16
+Group: (C4 x C2) : C2
+PLLs: H Z
+
+<U,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Aa,Na>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Nb>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,E>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Aa E H
+
+<U,Aa,H>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Aa E H
+
+<U,Aa,Z>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Ua,Na>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Nb>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,E>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,H>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Ua H Z
+
+<U,Ua,Z>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Ua H Z
+
+<U,Ua,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ja,Na>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Nb>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Ja Nb
+
+<U,Ja,Rb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Jb,Na>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Jb Na
+
+<U,Jb,Nb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Ra>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Nb>
+Index: 18
+Order: 16
+Group: C2 x D8
+PLLs: Na Nb H
+
+<U,Na,Ra>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Na Ra
+
+<U,Na,Rb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,E>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,H>
+Index: 18
+Order: 16
+Group: C2 x D8
+PLLs: Na Nb H
+
+<U,Na,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Ra>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Rb>
+Index: 12
+Order: 24
+Group: S4
+PLLs: Nb Rb
+
+<U,Nb,E>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Nb,H>
+Index: 18
+Order: 16
+Group: C2 x D8
+PLLs: Na Nb H
+
+<U,Nb,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Nb,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Rb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,E,H>
+Index: 18
+Order: 16
+Group: (C4 x C2) : C2
+PLLs: E H
+
+<U,E,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,E,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,E,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,E,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,E,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,H,Z>
+Index: 18
+Order: 16
+Group: (C4 x C2) : C2
+PLLs: H Z
+
+<U,H,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,H,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,H,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,H,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,H,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,H,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Z,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Z,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Z,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Z,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Aa,Na,Nb>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Na,E>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Na,H>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Na,Z>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Na,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Na,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Nb,E>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Nb,H>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Nb,Z>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Nb,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Nb,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,E,H>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Aa E H
+
+<U,Aa,E,Z>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,E,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,E,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,H,Z>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,H,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,H,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Z,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,Z,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Aa,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Ua,Na,Nb>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Na,E>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Na,H>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Na,Z>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Na,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Na,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Nb,E>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Nb,H>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Nb,Z>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Nb,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Nb,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,E,H>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,E,Z>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,E,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,E,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,H,Z>
+Index: 6
+Order: 48
+Group: A4 : C4
+PLLs: Ua H Z
+
+<U,Ua,H,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,H,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Z,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,Z,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ua,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ja,Na,Nb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Na,Rb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Na,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Na,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Na,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Na,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Nb,Rb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Nb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Nb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Nb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Nb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Rb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Rb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Rb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Rb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,E,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,E,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,E,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,H,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,H,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Ja,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Jb,Na,Nb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Na,Ra>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Na,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Na,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Na,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Na,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Nb,Ra>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Nb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Nb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Nb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Nb,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Ra,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Ra,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Ra,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Ra,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,E,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,E,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,E,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,H,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,H,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Jb,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Nb,Ra>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Nb,Rb>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Nb,E>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,Nb,H>
+Index: 18
+Order: 16
+Group: C2 x D8
+PLLs: Na Nb H
+
+<U,Na,Nb,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,Nb,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,Nb,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,Nb,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,Nb,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,Nb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Nb,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Ra,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Ra,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Ra,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Ra,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Rb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Rb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Rb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Rb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,E,H>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,E,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,E,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,E,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,E,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,E,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,E,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,E,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,H,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Na,H,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,H,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,H,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,H,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,H,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,H,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,Z,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,Z,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,Z,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,Z,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Na,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Na,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Na,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Na,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,Ra,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Ra,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Ra,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Ra,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Rb,E>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,Rb,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,Rb,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,Rb,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,E,H>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Nb,E,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Nb,E,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,E,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,E,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,E,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,E,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,E,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,H,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,Nb,H,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,H,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,H,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,H,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,H,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,H,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,Z,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,Z,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,Z,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,Z,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Nb,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Nb,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Nb,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Nb,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Ra,E,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,E,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,E,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,H,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,H,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Ra,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,Rb,E,H>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,E,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,E,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,H,Z>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,H,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,Rb,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,E,H,Z>
+Index: 9
+Order: 32
+Group: (C2 x C2 x C2 x C2) : C2
+PLLs: Na Nb E H Z
+
+<U,E,H,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,H,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,H,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,E,H,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,E,H,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,E,H,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,E,Z,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,Z,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,Z,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,E,Z,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,E,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,E,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,E,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,E,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,H,Z,F>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,H,Z,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,H,Z,V>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,H,Z,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,H,Z,Ga>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Ja Na Nb Rb E H Z Ga
+
+<U,H,Z,Gc>
+Index: 3
+Order: 96
+Group: ((C2 x C2 x C2 x C2) : C3) : C2
+PLLs: Jb Na Nb Ra E H Z Gc
+
+<U,H,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,H,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
+
+<U,Z,F,T>
+Index: 3
+Order: 96
+Group: (C2 x C2 x A4) : C2
+PLLs: Aa Na Nb E H Z F T
+
+<U,Z,V,Y>
+Index: 3
+Order: 96
+Group: (A4 : C4) : C2
+PLLs: Ua Na Nb E H Z V Y
 gap> 

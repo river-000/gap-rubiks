@@ -69,7 +69,7 @@ for a in [1..Length(PLLs)] do
         Ga:=Group([U,y,z]);
         Gb:=Group([U,x,z]);
         Gc:=Group([U,x,y]);
-        if G <> Ga and G <> Gb and G <> Gc then
+        #if G <> Ga and G <> Gb and G <> Gc then
             Print("\n<U,");
             Print(PLLnm[a]);
             Print(",");
@@ -78,7 +78,7 @@ for a in [1..Length(PLLs)] do
             Print(PLLnm[c]);
             Print(">");
             PPLGrpInfo(G);
-        fi;
+        #fi;
     od;
     od;
 od;
