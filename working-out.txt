@@ -1,0 +1,120 @@
+speffz scheme
+
+           +----------+
+           | Ac Ae Bc |
+           | De __ Be |
+           | Dc Ce Cd |
++----------+----------+----------+----------+
+| Ec Ee Fc | Ic Ie Jc | Mc Me Nc | Qc Qe Rc |
+| He __ Fe | Le __ Je | Pe __ Ne | Te __ Re |
+| Hc Ge Gc | Lc Ke Kc | Pc Oe Oc | Tc Se Sc |
++----------+----------+----------+----------+
+           | Uc Ue Vc |
+           | Xe __ Ve |
+           | Xc We Wc |
+           +----------+
+.
+
+group actions in GAP:
+
+gap> 2 ^ (1,2,3);
+3
+
+U = (Ac Bc Cc Dc)(Ae Be Ce De)(Ec Qc Mc Ic)(Ee Qe Me Ie)(Fc Rc Nc Jc)
+R = (Mc Nc Oc Pc)(Me Ne Oe Pe)(Jc Bc Tc Vc)(Je Be Te Ve)(Kc Cc Qc Wc)
+#F = (Ic Jc Kc Lc)(Ie Je Ke Le)(Dc Mc Vc Gc)(De Me Ve Ge)(Cc Pc Uc Fc) WRONG
+F = (Ic Jc Kc Lc)(Ie Je Ke Le)(Cc Pc Uc Fc)(Ce Pe Ue Fe)(Dc Mc Vc Gc)
+
+Numbering scheme
+Ac 165
+Bc 166
+Cc 167
+...
+Xc 188
+Ae 265
+Be 266
+Ce 267
+...
+Xe 288
+
+$ perl -e 'print "sed -e \"s/ /,/g\" "; for $i (65..88) { print "-e s/".chr($i)."c/1$i/g "; print "-e s/".chr($i)."e/2$i/g "; }' ; echo
+sed -e 's/ /,/g' -e s/Ac/165/g -e s/Ae/265/g -e s/Bc/166/g -e s/Be/266/g -e s/Cc/167/g -e s/Ce/267/g -e s/Dc/168/g -e s/De/268/g -e s/Ec/169/g -e s/Ee/269/g -e s/Fc/170/g -e s/Fe/270/g -e s/Gc/171/g -e s/Ge/271/g -e s/Hc/172/g -e s/He/272/g -e s/Ic/173/g -e s/Ie/273/g -e s/Jc/174/g -e s/Je/274/g -e s/Kc/175/g -e s/Ke/275/g -e s/Lc/176/g -e s/Le/276/g -e s/Mc/177/g -e s/Me/277/g -e s/Nc/178/g -e s/Ne/278/g -e s/Oc/179/g -e s/Oe/279/g -e s/Pc/180/g -e s/Pe/280/g -e s/Qc/181/g -e s/Qe/281/g -e s/Rc/182/g -e s/Re/282/g -e s/Sc/183/g -e s/Se/283/g -e s/Tc/184/g -e s/Te/284/g -e s/Uc/185/g -e s/Ue/285/g -e s/Vc/186/g -e s/Ve/286/g -e s/Wc/187/g -e s/We/287/g -e s/Xc/188/g -e s/Xe/288/g 
+
+U:=(165,166,167,168)(265,266,267,268)(169,181,177,173)(269,281,277,273)(170,182,178,174);
+R:=(177,178,179,180)(277,278,279,280)(174,166,184,186)(274,266,284,286)(175,167,181,187);
+###F:=(173,174,175,176)(273,274,275,276)(168,177,186,171)(268,277,286,271)(167,180,185,170);
+F=(173,174,175,176)(273,274,275,276)(167,180,185,170)(267,280,285,270)(168,177,186,171);
+
+# PLL algorithms
+
+https://www.speedsolving.com/wiki/index.php/PLL#T_Permutation
+Tp:=R U R' U' R' F R2 U' R' U' R U R' F';
+
+sed -e 's/ /*/g' -e "s/'/^(-1)/g"
+
+Tp:=R*U*R^(-1)*U^(-1)*R^(-1)*F*R2*U^(-1)*R^(-1)*U^(-1)*R*U*R^(-1)*F^(-1);
+
+(166,167)(174,178)(177,181)(265,286,277,269,268,278)(266,271)
+
+# perl -e 'print "sed -e \"s/,/ /g\" "; for $i (65..88) { print "-e s/1$i/".chr($i)."c/g "; print "-e s/2$i/".chr($i)."e/g "; }' ; echo
+sed -e "s/,/ /g" -e s/165/Ac/g -e s/265/Ae/g -e s/166/Bc/g -e s/266/Be/g -e s/167/Cc/g -e s/267/Ce/g -e s/168/Dc/g -e s/268/De/g -e s/169/Ec/g -e s/269/Ee/g -e s/170/Fc/g -e s/270/Fe/g -e s/171/Gc/g -e s/271/Ge/g -e s/172/Hc/g -e s/272/He/g -e s/173/Ic/g -e s/273/Ie/g -e s/174/Jc/g -e s/274/Je/g -e s/175/Kc/g -e s/275/Ke/g -e s/176/Lc/g -e s/276/Le/g -e s/177/Mc/g -e s/277/Me/g -e s/178/Nc/g -e s/278/Ne/g -e s/179/Oc/g -e s/279/Oe/g -e s/180/Pc/g -e s/280/Pe/g -e s/181/Qc/g -e s/281/Qe/g -e s/182/Rc/g -e s/282/Re/g -e s/183/Sc/g -e s/283/Se/g -e s/184/Tc/g -e s/284/Te/g -e s/185/Uc/g -e s/285/Ue/g -e s/186/Vc/g -e s/286/Ve/g -e s/187/Wc/g -e s/287/We/g -e s/188/Xc/g -e s/288/Xe/g 
+
+(Bc Cc)(Jc Nc)(Mc Qc)(Ae Ve Me Ee De Ne)(Be Ge)
+
+expecting
+(Bc Cc)(Jc Nc)(Mc Qc)(Ae De)(Me Ee)
+
+fixed:
+
+(166,167)(174,178)(177,181)(266,268)(269,277)
+
+Ap:=F' U' F U F R' F' U' F U F R F' U' F2 U F;
+Ap:=F^(-1)*U^(-1)*F*U*F*R^(-1)*F^(-1)*U^(-1)*F*U*F*R*F^(-1)*U^(-1)*F2*U*F;
+
+Up:=R2 U' R' U' R U R U R U' R;
+Up:=R2*U^(-1)*R^(-1)*U^(-1)*R*U*R*U*R*U^(-1)*R;
+
+Yp:=F R' F R2 U' R' U' R U R' F' R U R' U' F';
+Yp:=F*R^(-1)*F*R2*U^(-1)*R^(-1)*U^(-1)*R*U*R^(-1)*F^(-1)*R*U*R^(-1)*U^(-1)*F^(-1);
+
+Hp:=R2' U2 R' U2 R2' U2' R2' U2 R' U2 R2';
+Hp:=R2^(-1)*U2*R^(-1)*U2*R2^(-1)*U2^(-1)*R2^(-1)*U2*R^(-1)*U2*R2^(-1);
+
+Zp:=R U R' U R' U' R' U R U' R' U' R2 U R;
+Zp:=R*U*R^(-1)*U*R^(-1)*U^(-1)*R^(-1)*U*R*U^(-1)*R^(-1)*U^(-1)*R2*U*R;
+
+Ep:=R2 U F' R' U R U' R' U R U' R' U R U' F U' R2;
+Ep:=R2*U*F^(-1)*R^(-1)*U*R*U^(-1)*R^(-1)*U*R*U^(-1)*R^(-1)*U*R*U^(-1)*F*U^(-1)*R2;
+
+Vp:=R U R' U F' R' U' R U' R' U2 R U' F U' R U2 R';
+Vp:=R*U*R^(-1)*U*F^(-1)*R^(-1)*U^(-1)*R*U^(-1)*R^(-1)*U2*R*U^(-1)*F*U^(-1)*R*U2*R^(-1);
+
+Fp:=R' U R U' R2 F' U' F U R F R' F' R2 U';
+Fp:=R^(-1)*U*R*U^(-1)*R2*F^(-1)*U^(-1)*F*U*R*F*R^(-1)*F^(-1)*R2*U^(-1);
+
+Jap:=U R U R' U' R' F R2 U' R' U2 R U R' F' R U R' U' R' F R F';
+Jbp:=R U R' F' R U R' U' R' F R2 U' R' U';
+Nap:=R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R';
+Nbp:=(R' U R U') R' F' U' F (R U R' F) (R' F' R U') R;
+Rap:=F2 R' F' U' F' U F R F' U2 F U2 F';
+Rbp:=R' U2 R U2 R' F (R U R' U') R' F' R2' U';
+
+Jap:=U*R*U*R^(-1)*U^(-1)*R^(-1)*F*R2*U^(-1)*R^(-1)*U2*R*U*R^(-1)*F^(-1)*R*U*R^(-1)*U^(-1)*R^(-1)*F*R*F^(-1);
+Jbp:=R*U*R^(-1)*F^(-1)*R*U*R^(-1)*U^(-1)*R^(-1)*F*R2*U^(-1)*R^(-1)*U^(-1);
+Nap:=R*U*R^(-1)*U*R*U*R^(-1)*F^(-1)*R*U*R^(-1)*U^(-1)*R^(-1)*F*R2*U^(-1)*R^(-1)*U2*R*U^(-1)*R^(-1);
+Nbp:=(R^(-1)*U*R*U^(-1))*R^(-1)*F^(-1)*U^(-1)*F*(R*U*R^(-1)*F)*(R^(-1)*F^(-1)*R*U^(-1))*R;
+Rap:=F2*R^(-1)*F^(-1)*U^(-1)*F^(-1)*U*F*R*F^(-1)*U2*F*U2*F^(-1);
+Rbp:=R^(-1)*U2*R*U2*R^(-1)*F*(R*U*R^(-1)*U^(-1))*R^(-1)*F^(-1)*R2^(-1)*U^(-1);
+
+Gap:=R U2' R' U' F' R U R2 U' R' F R U R2 U2' R';
+Gcp:=F' U' F U F R' F' U' F U F R F' U' F2 U F U' R2 U R U R' U' R' U' R' U R' U;
+Gap:=R*U2^(-1)*R^(-1)*U^(-1)*F^(-1)*R*U*R2*U^(-1)*R^(-1)*F*R*U*R2*U2^(-1)*R^(-1);
+Gcp:=F^(-1)*U^(-1)*F*U*F*R^(-1)*F^(-1)*U^(-1)*F*U*F*R*F^(-1)*U^(-1)*F2*U*F*U^(-1)*R2*U*R*U*R^(-1)*U^(-1)*R^(-1)*U^(-1)*R^(-1)*U*R^(-1)*U;
+
+## Findings
+
+full PLL is 288, (A4 x A4) : C2
+<U,Tp> and <U,Yp> are both size 96, but different groups
+<U,Ap> and <U,Up> are both size 48 and different (but isomorphic) groups
+
+so A and U are even*even type permutations, and I guess T and Y are odd*odd type permutations
